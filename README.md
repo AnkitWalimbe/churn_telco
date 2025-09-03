@@ -5,7 +5,7 @@ This project explores the **IBM Telco Customer Churn dataset** to surface churn 
 
 ---
 
-## 🔍 Project Overview
+##  Project Overview
 - **Dataset**: IBM Telco Customer Churn (~7k customers; demographics, services, contracts, charges).  
 - **Goal**: Understand *why* customers leave and build baseline models to flag at-risk customers.  
 - **What’s inside**:
@@ -15,7 +15,7 @@ This project explores the **IBM Telco Customer Churn dataset** to surface churn 
 
 ---
 
-## 📊 Key Insights
+##  Key Insights
 
 ### Churn distribution
 <img src="reports/figures/churn_distribution.png" width="420" alt="Bar chart of churn yes/no distribution">
@@ -40,7 +40,7 @@ This project explores the **IBM Telco Customer Churn dataset** to surface churn 
 
 ---
 
-## 🤖 Baseline Modeling Results
+##  Baseline Modeling Results
 
 To avoid leakage, we **removed**: `Churn Score`, `Churn Value`, `CLTV`, `Churn Reason`, and IDs.
 
@@ -59,7 +59,7 @@ To avoid leakage, we **removed**: `Churn Score`, `Churn Value`, `CLTV`, `Churn R
 
 ---
 
-## 💡 Recommended Actions
+##  Recommended Actions
 - **Contract strategy**: Target **month-to-month** with incentives to switch to annual plans.  
 - **Early-tenure focus**: Proactive onboarding in the first 3–6 months.  
 - **Service quality**: Audit fiber optic tickets/NPS/outages; fix top pain points.  
@@ -67,7 +67,25 @@ To avoid leakage, we **removed**: `Churn Score`, `Churn Value`, `CLTV`, `Churn R
 
 ---
 
-## ⚙️ How to Run
+##  Business Impact
+
+This analysis highlights key churn drivers and provides actionable recommendations:
+
+- **Contract Type**: Month-to-month customers churn at ~3x the rate of longer-term contracts.  
+  → Action: Incentivize annual/2-year plans with discounts or perks.  
+
+- **Internet Service**: Fiber optic users churn more than DSL.  
+  → Action: Audit fiber service quality (tickets, NPS) to reduce dissatisfaction.  
+
+- **Payment Method**: Customers paying via electronic check have the highest churn rate.  
+  → Action: Promote auto-pay/credit card by offering small fee waivers.  
+
+ **Value to the business**:  
+Reducing churn by even **5% saves millions in customer acquisition costs** and stabilizes revenue.
+
+---
+
+##  How to Run
 
 ```bash
 # 1) clone
