@@ -85,6 +85,12 @@ Reducing churn by even **5% saves millions in customer acquisition costs** and s
 
 ---
 
+###  Strategic Value
+- By reducing churn among high-risk groups (e.g., month-to-month, high charges, electronic check), the company could **lower churn by 5–10%**.  
+- Even a **5% reduction** would retain ~350 customers and preserve **~$300k annually**, equaling to a approximate **~5% of total annual revenue** for a company of this scale.
+
+---
+
 ##  How to Run
 
 ```bash
